@@ -8,7 +8,7 @@ script:
 # build image
 - docker build -t carboncoop/nobelgrid .
 # test image
-- docker run carboncoop/nobelgrid
+- docker run carboncoop/nobelgrid /bin/sh
 #--version
 # push image
 - >
